@@ -1,3 +1,4 @@
+#isme llm ka configuration hora hai
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 

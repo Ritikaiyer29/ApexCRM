@@ -1,3 +1,4 @@
+#isme data add karre hai db me
 from faker import Faker
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker

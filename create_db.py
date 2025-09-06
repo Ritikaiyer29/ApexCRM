@@ -1,3 +1,4 @@
+#isme db ka structure defined hai
 import datetime
 from sqlalchemy import create_engine, Column, Integer, String, Text, DateTime, ForeignKey, Boolean
 from sqlalchemy.orm import declarative_base, relationship
