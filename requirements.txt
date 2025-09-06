@@ -1,0 +1,63 @@
+# --- Core Libraries ---
+# For the database ORM
+sqlalchemy==2.0.29
+# For the web user interface
+streamlit==1.35.0
+# For LLM orchestration and prompt templating
+langchain==0.1.20
+# For deep learning and tensor operations
+torch
+# For loading and using models from Hugging Face
+transformers
+# For generating mock data
+Faker==25.8.0
+
+# --- Key Dependencies ---
+# These are installed automatically with the libraries above,
+# but pinning them helps ensure reproducibility.
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+PyYAML==6.0.1
+altair==5.3.0
+blinker==1.8.2
+certifi==2024.7.4
+charset-normalizer==3.3.2
+click==8.1.7
+colorama==0.4.6
+dataclasses-json==0.6.6
+gitdb==4.0.11
+GitPython==3.1.43
+huggingface-hub==0.23.0
+idna==3.7
+jsonpatch==1.33
+jsonpointer==2.4
+jsonschema==4.22.0
+langchain-core==0.1.52
+langsmith==0.1.57
+marshmallow==3.21.2
+mypy-extensions==1.0.0
+numpy==1.26.4
+packaging==24.0
+pandas==2.1.4
+pillow==10.3.0
+protobuf==4.25.3
+pyarrow==16.1.0
+pydantic==2.7.1
+pydantic_core==2.18.2
+python-dateutil==2.9.0
+pytz==2024.1
+regex==2024.5.15
+requests==2.32.3
+rich==13.7.1
+safetensors==0.4.3
+six==1.16.0
+smmap==5.0.1
+tenacity==8.2.3
+tokenizers==0.19.1
+toml==0.10.2
+toolz==0.12.1
+typing-inspect==0.9.0
+typing_extensions==4.12.0
+tzdata==2024.1
+urllib3==2.2.1
+watchdog==4.0.0
